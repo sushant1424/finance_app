@@ -30,9 +30,9 @@ def seed():
 
         # --- Demo User ---
         user = User(
-            name="Demo User",
-            email="demo@fintrack.com",
-            hashed_password=hash_password("demo1234"),
+            name="testuser",
+            email="testuser@fintrack.app",
+            hashed_password=hash_password("test123"),
             currency="NPR",
         )
         db.add(user)
